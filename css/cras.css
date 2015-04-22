@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: inherit;
+}
+title{
+	display: none;
+	font-size: 1px;
+}
+body{
+	height: 100%;
+	background: url(back.jpg) no-repeat;
+	background-size: contain;
+}
+/*.all{
+	width: 900px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background: #fff;
+	box-shadow: 0 0 10px;
+	z-index: -2;
+
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto -155px;
+
+	padding-bottom: 155px;
+
+}*/
+
+#logo1{
+	left: 20px;
+	width: 990px;
+	height: 100px;
+	background: url(kap.svg) no-repeat;
+	background-size: contain;
+}
+#logo2{
+	width: 100%;
+	height:9px;
+	background: red;
+	top: -55px;
+	z-index: -1;
+}
+/*-----------------------NAVIGATION---------------------------*/
+table{
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+td{
+	width: 136px;
+	display: inline-block;
+	border-bottom: 1px solid red;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	text-decoration: ;
+	background: #fff;
+	cursor: pointer;
+}
+
+td:hover{
+	background: #f00 !important;
+}
+/*-----------------------Side logo------------------------------*/
+.logo-side{
+	width: 30px;
+	height: 100%;
+}
+#logo3, #logo4, #logo5{	
+	background: red;
+	width: 2px;
+	height: 1776px;
+	display: inline-block;
+	margin-top: -360px;
+	margin-bottom: -508px;
+	z-index: 5;
+}
+#logo3{left: 55px;}
+#logo4{left: 60px;}
+#logo5{left: 65px;}
+
+/*----------------------------TEXT-------------------------------*/
+.text{
+	width: 650px;
+	height: 1356px;
+	word-break:break-all;
+	border: 1px solid red;
+	padding: 40px;
+	text-indent: 30px;
+	font-size: 1.1em;
+	margin: 20px 0px 20px 40px;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}
+/*--------------------FOOTER---http://ryanfait.com/sticky-footer/layout.css-*/
+.logo-bot{
+}
+#logo6, #logo7, #logo8{
+	width:100%;
+	height: 2px;
+	background: red;
+}
+#logo6{top:-10px;}
+#logo7{top:-5px;}
+#logo8{}
+.f-list{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.f-list ul{
+	margin-bottom: 50px;
+	padding: 0px 0px;
+	display: inline-block;
+	list-style-type: none;
+	width: 197px;
+}
+li{
+	display: block;
+}
+
+.f-b{
+	background: rgba(255,255,255,.0);
+	height: 155px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: -2;
+}
