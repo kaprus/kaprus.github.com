@@ -6,16 +6,16 @@
 }
 body{
 	height: 100%;
-	background: url(back.jpg) no-repeat;
-	background-size: contain;
+	background: url(newbak.gif) no-repeat;
+	background-size: cover;
 }
 .all{
 	width: 900px;
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	background: #fff;
-	box-shadow: 0 0 10px;
+	background:;
+	
 	z-index: -2;
 }
 .body{
@@ -69,14 +69,15 @@ td{
 
 /*----------------------------TEXT-------------------------------*/
 .text{
-	width: 650px;
-	height: 100%;
+	width: 600px;
+	height: 860px;
 	word-break:break-all;
-	border: 1px solid red;
-	padding: 40px;
+	overflow: hidden;
+	
+	padding: 0px;
 	text-indent: 30px;
 	font-size: 1.1em;
-	margin: 20px 0px 20px 40px;
+	margin: 290px 0px 180px 280px;
 	-webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
