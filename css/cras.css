@@ -9,7 +9,7 @@ title{
 }
 body{
 	background: url(newbak1.png) no-repeat;
-	background-size:cover;
+	background-size:contain;
 	height: 880px;
 	width: 100%;
 
